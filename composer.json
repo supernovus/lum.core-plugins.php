@@ -1,0 +1,29 @@
+{
+  "name": "lum/lum-core-plugins",
+  "description": "A meta-package of Core plugins",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name": "Timothy Totten",
+      "email": "supernovus@gmail.com",
+      "role": "Original Author"
+    }
+  ],
+  "require":
+  {
+    "lum/lum-plugins-conf": "^1.0",
+    "lum/lum-plugins-debug": "^1.0",
+    "lum/lum-plugins-fakeserver": "^1.0",
+    "lum/lum-plugins-router": "^1.0",
+    "lum/lum-plugins-site": "^1.0",
+    "lum/lum-plugins-web": "^1.0"
+  },
+  "extra":
+  {
+    "branch-alias":
+    {
+      "dev-main": "1.x-dev"
+    }
+  }
+}
